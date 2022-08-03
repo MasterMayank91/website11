@@ -1,0 +1,124 @@
+/*  */
+
+*
+{
+    user-select: none;
+    margin: 0;
+    font:16px arial;
+    color:#fff;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+body
+{
+    background:rgba(0,0,0,0.7) url(../rtx/h0.jpg) no-repeat;
+    background-blend-mode: overlay;
+    background-size: cover;
+}
+main
+{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr 10fr 1fr;
+}
+header,footer,#bottom,#heading
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#heading
+{
+    margin:20px 70px;
+}
+h1
+{
+    font:bold 20px arial;
+}
+.logo
+{
+    width: 50px;
+    height: 50px;
+}
+
+menu
+{
+    background:#111;
+    border-radius: 30px;
+    padding: 20px;
+    margin:10px;
+}
+a
+{
+    font:16px calibri;
+    padding: 10px;
+}
+a:hover
+{
+    text-decoration: underline;
+}
+footer a
+{
+    margin:auto 30px;
+}
+.right
+{
+    font:16px calibri;
+    margin:auto 30px;
+}
+
+#frame
+{
+    display: grid;
+    place-content: space-around;
+}
+#center
+{
+    width: 500px;
+    height: 400px;
+    display: inline;
+    grid-gap: 10px;
+    text-align: center;
+}
+.field, .button
+{
+    width:100%;
+    margin:10px 0;
+    padding:15px;
+    border-radius: 20px;
+    color:#000;
+    opacity: 0.7;
+    font:16px arial;
+    text-align: center;
+}
+.button
+{
+    background:#000;
+    color:#fff;
+}
+.button:hover
+{
+    opacity: 1;
+}
+
+#bottom
+{
+    margin:10px 0;
+}
+#check
+{
+    padding: 10px;
+    font:bold 14px arial;
+}
+h2
+{
+    font:bold 18px arial;
+}
+p
+{
+    font:16px arial;
+    padding: 20px;
+}
